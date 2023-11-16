@@ -6,13 +6,25 @@
     <title>Calculadora</title>
 </head>
 <body>
-    <input type="button" value="Botão 1" id="bt1" onclick="clq1();">
-    <input type="button" value="botçao 2" id="bt2">
+    <select id="idioma">
+        <option value="br" selected="selected">Portugues[Brasil]</option>
+        <option value="es">Español</option>
+        <option value="en">Ingles</option>
+        <option value="fr">Frances</option>
+        
+    </select>
+    <h1>Calculador</h1>
+    <p id="boasVindas">essa é uma calculador em diferentes idiomas</p>
     <br>
     <br>
     <input type="text" id="valor1">
-    <p>+</p>
+    <br>
     <input type="text" id="valor2">
+    <br>
+    <input type="button" value="somar" id="btsomar">
+    <input type="button" value="subtrair" id="btsubtrair">
+    <input type="button" value="multiplicar" id="btmultiplicar">
+    <input type="button" value="Dividir" id="btdividir">
     <p id="resultado"></p>
 </body>
 <script src="script.js"></script>
