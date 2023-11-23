@@ -42,4 +42,3 @@ function setlanguague(traducao){
     titulo.innerHTML = traducao.titulo;
     boasVindas.innerHTML = traducao.boasvindas;
 }
->>>>>>> 93f2e2a (Add language translations for calculator)
